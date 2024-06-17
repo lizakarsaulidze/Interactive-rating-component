@@ -1,0 +1,31 @@
+<div *ngIf="showCard" class="container">
+    <button class="star-btn">⭐</button>
+    <div class="mian">
+        <h1 class="h1-text">How did we do?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident dolorum minus, ab voluptas amet eum ipsam
+            expedita, fugiat eligendi omnis suscipit. Voluptatem, perferendis.</p>
+        <div class="btn-container">
+            <div>
+                <button
+                    [ngStyle]="{
+                        'color': number > 3 ? 'green' : 'pink', 
+                        'backgroundColor': selectedNumber == number ? 'yellow' : '',
+                        }"
+                    (click)="print(number)" class="btns" *ngFor="let number of btn">{{number}}</button>
+            </div>
+            <button (click)="toggle()" class="btn">SUBMIT</button>
+        </div>
+    </div>
+
+</div>
+
+
+<div *ngIf="!showCard" class="card2">
+    <img src="../../assets/img.png" alt="">
+    <div class="maindiv">
+        <p class="ptext" >you selected {{selectedNumber}} out of 5</p>
+        <h1>Thanke you!</h1>
+        <p class="p-lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, quibusdam, consequuntur
+            et assumenda eveniet voluptatum ipsum illo sint, quos saepe porro voluptates?</p>
+    </div>
+</div>

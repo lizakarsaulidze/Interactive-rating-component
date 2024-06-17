@@ -1,0 +1,84 @@
+.container{
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    border-radius: 10px;
+}
+.star-btn{
+    width: 25px;
+    padding: 3px;
+    border-radius: 10px;
+    border: none;
+    background-color:hsl(213, 20%, 24%) ;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.h1-text{
+   color: hsl(0, 0%, 100%);
+   font-size: 18px;
+}
+.container p{
+    color:hsl(217, 12%, 63%) ;
+    font-size: 14px;
+}
+.container .btn{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 250px;
+    padding: 10px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    letter-spacing: 2px; 
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+.container .btns{
+    width: 35px;
+    padding:10px;
+    border-radius: 100%;
+    border: none;
+    margin-left: 20px;
+    background-color:hsl(213, 20%, 24%) ;
+    color: hsl(217, 12%, 63%);
+}
+.mian{
+    margin-left: 10px;
+}
+
+.card2{
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    border-radius: 10px;
+    height: 420px;
+}
+
+.card2 img{
+    width: 250px;
+    padding: 20px;
+    margin-left: 25px;
+}
+
+.maindiv{
+    margin-left: 30px;
+}
+.ptext{
+    margin-left: 50px;
+    background-color:  hsl(212, 18%, 21%);;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color:  hsl(25, 97%, 53%);
+}
+
+.maindiv h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    text-align: center;
+    margin-right: 15px;
+}
+.card2 .p-lorem {
+    color: hsl(217, 12%, 63%);
+  
+}
